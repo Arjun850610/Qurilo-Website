@@ -9,14 +9,14 @@ const BusinessCards = ({ card, index }) => {
           index % 2 === 0 ? "lg:pl-20 lg:pr-2" : "lg:pl-2 lg:pr-20"
         }`}
       >
-        <div className="hidden md:block w-full md:h-[8rem] lg:h-[8rem] lg:w-[30%] overflow-hidden">
+        <div className="hidden md:block w-full md:h-[8rem] lg:h-[8rem] md:w-[20%] lg:w-[30%] overflow-hidden">
           <img
             src={card.image}
             alt={card.cardTitle}
             className="w-full h-full object-cover rounded-sm group-hover:scale-110 transition-all ease-in-out duration-300"
           />
         </div>
-        <div className="flex flex-col gap-4 md:gap-2 lg:gap-1 lg:justify-between lg:w-[70%] md:h-[8rem] lg:h-[8rem]">
+        <div className="flex flex-col gap-4 md:gap-2 lg:gap-1 lg:justify-between lg:w-[70%] md:h-[8rem] md:w-[80%] lg:h-[8rem]">
           <div className="flex items-center justify-between text-lg">
             <h3 className="font-[600] text-xl md:text-xl lg:text-base xl:text-lg">
               {card.cardTitle}
