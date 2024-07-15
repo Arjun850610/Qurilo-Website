@@ -23,13 +23,11 @@ const SoftwareModulesSection = ({ moduleSection }) => {
     <section>
       <div className="px-6 py-10 lg:px-20 lg:py-20 bg-black text-white">
         <div className="flex flex-col gap-5 lg:gap-6">
-          <div className=" text-2xl font-sans lg:text-4xl capitalize font-[500] text-center">
-            Our Customer Relationship Management Services
-          </div>
+          <h2 className=" text-2xl font-sans lg:text-4xl capitalize font-[500] text-center">
+            {moduleSection.heading}
+          </h2>
           <p className="text-center font-sans text-[18px] font-[400] mt-2">
-            We have the experience and expertise regarding CRM system services
-            with a proven track record, so you can rest assured that your
-            project is in good hands.
+            {moduleSection.subHeading}
           </p>
         </div>
 

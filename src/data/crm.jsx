@@ -299,72 +299,78 @@ export const Testimaonials = [
 
 // Software Modules Section Data
 
+// import consulting from "../images/consulting.png";
+// import Campaign from "../images/Campaign.png";
+// import Implementation from "../images/Implementation.png";
+// import Testing from "../images/Testing.png";
+
 export const SoftwareModulesData = {
-  heading: "Equipped with Capabilitiesto Develop Customer Relationship Management",
+  heading: "Equipped with Capabilities to Develop Customer Relationship Management",
   subHeading: "Depending on your business needs, we cover the development of the following ERP software modules to raise the efficiency of your workflows.",
   cardsData: [
     {
       image: consulting,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Retail",
+      moduleDescription: "Enhance retail operations with CRM solutions tailored for managing customer relationships, sales tracking, and customer support."
     },
     {
       image: Campaign,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Healthcare",
+      moduleDescription: "Empower healthcare providers with CRM tools designed to streamline patient interactions, appointment scheduling, and medical records management."
     },
     {
       image: Implementation,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Finance",
+      moduleDescription: "Optimize financial services with CRM modules focusing on client acquisition, investment management, and financial planning."
     },
     {
       image: Testing,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Education",
+      moduleDescription: "Improve educational institutions' efficiency with CRM systems that assist in student enrollment, course management, and alumni relations."
     },
     {
       image: consulting,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Hospitality",
+      moduleDescription: "Transform hospitality services with CRM platforms that facilitate guest bookings, loyalty program management, and customer feedback."
     },
     {
       image: Campaign,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Real Estate",
+      moduleDescription: "Streamline real estate operations with CRM solutions for property management, client communication, and lead generation."
     },
     {
       image: Implementation,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Automotive",
+      moduleDescription: "Enhance automotive business processes with CRM tools tailored for sales pipeline management, customer service, and dealership operations."
     },
     {
       image: Testing,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for IT Services",
+      moduleDescription: "Support IT service providers with CRM modules focusing on client relationship management, project tracking, and service desk operations."
     },
     {
       image: consulting,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Telecommunications",
+      moduleDescription: "Optimize telecom services with CRM systems that manage subscriber interactions, service provisioning, and billing operations."
     },
     {
       image: Campaign,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Manufacturing",
+      moduleDescription: "Improve manufacturing efficiency with CRM platforms that handle customer orders, supply chain management, and production planning."
     },
     {
       image: Implementation,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for Logistics",
+      moduleDescription: "Enhance logistics operations with CRM tools for shipment tracking, inventory management, and client relationship optimization."
     },
     {
       image: Testing,
-      moduleName: "Manufacturing",
-      moduleDescription: "The manufacturing module aids in the management and simplification of numerous aspects of the manufacturing process, including bill management, production planning and scheduling, quality control, and cost management."
+      moduleName: "CRM for E-commerce",
+      moduleDescription: "Boost e-commerce performance with CRM solutions for customer engagement, order fulfillment, and sales analytics."
     },
   ]
-}
+};
+
 
 // Why Choose Us section
 import Comprehensive from "../assets/image/crm/comprehensive.png"
