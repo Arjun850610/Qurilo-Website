@@ -60,7 +60,7 @@ export const contactData1 = {
 export const contactData2 = {
   heading: "Got a Project in Mind? Tell Us More",
   des: "Drop us a line and we'll get back to you immediately to schedule a call and discuss your needs personally.",
-  button: "Contact Us",
+  button: "Get In Touch",
 };
 
 export const technologies = [
@@ -298,8 +298,6 @@ export const Testimaonials = [
 ];
 
 // Software Modules Section Data
-
-import cube from "../assets/image/crm/3d-cube.png"
 
 export const SoftwareModulesData = {
   heading: "Equipped with Capabilitiesto Develop Customer Relationship Management",

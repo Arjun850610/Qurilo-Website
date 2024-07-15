@@ -1,5 +1,5 @@
 import React from "react";
-import arrow from "../assets/image/crm/arrowIcon.png";
+import { FaArrowRight } from "react-icons/fa6";
 
 const ContactButton = ({ text }) => {
   return (
@@ -11,7 +11,7 @@ const ContactButton = ({ text }) => {
         {text}
       </span>
       <div className="absolute right-1 z-10 flex items-center justify-center w-[50px] h-[50px] bg-primary-500 rounded-full">
-        <img src={arrow} alt="Arrow Icon" className="w-fit h-6" />
+        <FaArrowRight  className="text-white text-2xl" />
       </div>
       <div className="absolute top-0 left-0 w-full h-full bg-primary-500 transition-transform duration-300 transform scale-x-0 origin-right group-hover:scale-x-100"></div>
     </button>

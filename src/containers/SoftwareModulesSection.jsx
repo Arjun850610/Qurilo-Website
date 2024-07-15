@@ -18,8 +18,6 @@ const chunkArray = (array, size) => {
 
 const SoftwareModulesSection = ({ moduleSection }) => {
   const chunkedCardsData = chunkArray(moduleSection.cardsData, 6);
-  console.log(chunkedCardsData);
-  console.log(chunkArray);
 
   return (
     <section>
@@ -46,7 +44,7 @@ const SoftwareModulesSection = ({ moduleSection }) => {
           >
             {chunkedCardsData.map((chunk, i) => (
               <SwiperSlide key={i}>
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-20 pb-10">
                   {chunk.map((module, j) => (
                     <ModulesCard module={module} key={j} />
                   ))}
