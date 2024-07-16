@@ -1,0 +1,230 @@
+{
+  "heroSection": {
+    "heading": "Enterprise Resource Planning",
+    "desc": "Optimize your business processes with our ERP systems software development services. We provide robust Enterprise Resource Planning software development, ensuring seamless management of resources, financials, and operations. Our solutions lead to cost savings and enhanced operational efficiency.",
+    "heroDesktop": "/assets/erp/images/heroDesktop.jpg",
+    "heroMobile": "/assets/erp/images/heroImage.jpg"
+  },
+  "servicesData": {
+    "heading": "Our Enterprise Resource Planning Services",
+    "desc": "We have the experience and expertise in ERP system services with a proven track record, ensuring your project is in capable hands.",
+    "services": [
+      {
+        "icon": "/assets/erp/icons/Consulting.png",
+        "heading": "Consulting",
+        "description": "We cover custom ERP system software development projects and process consulting. Project consulting helps organizations with the implementation and management of ERP projects. Our process consulting focuses on the processes and workflows involved in ERP."
+      },
+      {
+        "icon": "/assets/erp/icons/Implementation & Migration.png",
+        "heading": "Implementation & Migration",
+        "description": "Our ERP system implementation services automate and streamline business processes, enhancing operational efficiency. We analyze current ERP bottlenecks and execute seamless migrations for improved performance and usability. From building a new ERP system to transferring historical data, we handle the entire process for a robust solution."
+      },
+      {
+        "icon": "/assets/erp/icons/Custom Development.png",
+        "heading": "Custom Development",
+        "description": "Custom ERP development services involve business analysis, end-to-end evolutionary development, and testing. It enables businesses to control their operations, resources, and financials. Our custom ERP development includes several steps, from business analysis to testing."
+      },
+      {
+        "icon": "/assets/erp/icons/Testing.png",
+        "heading": "Testing",
+        "description": "ERP testing involves functionality, integrations, performance, usability, and security testing. We test all aspects of an ERP system to ensure its effectiveness and reliability. Our ERP testing ensures that the system works as expected."
+      },
+      {
+        "icon": "/assets/erp/icons/Support and Evolution.png",
+        "heading": "Support and Evolution",
+        "description": "We are a custom ERP system development company offering support and evolution involving data administration, system monitoring, troubleshooting, and system evolution. We monitor the ERP system to ensure it is always operational and resolve any issues promptly."
+      },
+      {
+        "icon": "/assets/erp/icons/Campaign Management.png",
+        "heading": "Campaign Management",
+        "description": "Our ERP system campaign management involves designing, executing, and monitoring marketing campaigns using an ERP system. We create target lists, build marketing messages, send out email blasts, track response rates, and analyze campaign results."
+      }
+    ]
+  },
+  "contactOneData": {
+    "heading": "Let's Discuss Your Project",
+    "des": "Get a free consultation and let us know your project idea to turn it into an amazing digital product.",
+    "button": "Contact Us"
+  },
+  "contactTwoData": {
+    "heading": "Got a Project in Mind? Tell Us More",
+    "des": "Drop us a line and we'll get back to you immediately to schedule a call and discuss your needs personally.",
+    "button": "Contact Us"
+  },
+  "technologiesData": {
+    "heading": "Our Comprehensive ERP Tech Stack",
+    "desc": "Discover the full range of technologies we use for ERP projects.",
+    "list": [
+      {
+        "heading": "Platforms",
+        "techstacks": ["SAP", "Oracle ERP"]
+      },
+      {
+        "heading": "Custom Development: Back end",
+        "techstacks": [".net", "Java", "php", "Python", "Go", "NodeJS"]
+      },
+      {
+        "heading": "Custom Development: Front end",
+        "techstacks": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Angular",
+          "Vue.js"
+        ]
+      }
+    ]
+  },
+  "industrySolutionsData": {
+    "heading": "Equipped with Capabilities to Develop Enterprise Resource Planning",
+    "subHeading": "Depending on your business needs, we cover the development of the following ERP software modules to raise the efficiency of your workflows.",
+    "cardsData": [
+      {
+        "image": "/assets/image/erp/icons/consulting.png",
+        "moduleName": "ERP for Retail",
+        "moduleDescription": "Enhance retail operations with ERP solutions tailored for managing inventory, sales, and customer support."
+      },
+      {
+        "image": "/assets/image/erp/icons/Campaign.png",
+        "moduleName": "ERP for Healthcare",
+        "moduleDescription": "Empower healthcare providers with ERP tools designed to streamline patient management, appointment scheduling, and medical records."
+      },
+      {
+        "image": "/assets/image/erp/icons/Implementation.png",
+        "moduleName": "ERP for Finance",
+        "moduleDescription": "Optimize financial services with ERP modules focusing on accounting, financial planning, and investment management."
+      },
+      {
+        "image": "/assets/image/erp/icons/Testing.png",
+        "moduleName": "ERP for Education",
+        "moduleDescription": "Improve educational institutions' efficiency with ERP systems that assist in student enrollment, course management, and alumni relations."
+      },
+      {
+        "image": "/assets/image/erp/icons/consulting.png",
+        "moduleName": "ERP for Hospitality",
+        "moduleDescription": "Transform hospitality services with ERP platforms that facilitate guest bookings, resource management, and customer feedback."
+      },
+      {
+        "image": "/assets/image/erp/icons/Campaign.png",
+        "moduleName": "ERP for Real Estate",
+        "moduleDescription": "Streamline real estate operations with ERP solutions for property management, client communication, and lead generation."
+      },
+      {
+        "image": "/assets/image/erp/icons/Implementation.png",
+        "moduleName": "ERP for Automotive",
+        "moduleDescription": "Enhance automotive business processes with ERP tools tailored for inventory management, customer service, and dealership operations."
+      },
+      {
+        "image": "/assets/image/erp/icons/Testing.png",
+        "moduleName": "ERP for Manufacturing",
+        "moduleDescription": "Improve manufacturing efficiency with ERP platforms that handle production planning, supply chain management, and inventory control."
+      }
+    ]
+  },
+  "whyChooseUsData": {
+    "heading": "Why Partner With Qurilo For Your Enterprise Resource Planning System?",
+    "des": "As a globally renowned ERP consulting company with almost a decade of experience in enterprise software development, Qurilo has developed numerous custom ERP software solutions for clients across various industries, delivering exceptional and robust solutions.",
+    "list": [
+      {
+        "image": "/assets/erp/icons/comprehensive.png",
+        "cardTitle": "Comprehensive ERP Solutions",
+        "cardDes": "Whether you want to build an ERP system from scratch or need improvement in the existing one, we get all your needs covered without sacrificing business continuity."
+      },
+      {
+        "image": "/assets/erp/icons/faster-development.png",
+        "cardTitle": "Faster Development Timelines",
+        "cardDes": "Using the iterative and agile business model, our team develops the MVP version of the ERP solution usually within 2-3 months and releases a new version every 4-6 weeks."
+      },
+      {
+        "image": "/assets/erp/icons/end-to-end-support.png",
+        "cardTitle": "End-to-End Support",
+        "cardDes": "Whether you want to build an ERP system from scratch or need improvement in the existing one, we get all your needs covered without sacrificing business continuity."
+      },
+      {
+        "image": "/assets/erp/icons/greater-transparency.png",
+        "cardTitle": "Assured Transparency",
+        "cardDes": "We provide high transparency not only on the development process but also on pricing. We regularly report the information needed to make the right business decisions and offer fair pricing at every stage of the project."
+      },
+      {
+        "image": "/assets/erp/icons/multi-platform-erp.png",
+        "cardTitle": "Multi-Platform ERP Compatibility",
+        "cardDes": "Our custom ERP business software solutions are accessible on different platforms, be it mobile, web, or desktop. We focus on building an intuitive UI/UX that boosts user engagement and satisfaction."
+      },
+      {
+        "image": "/assets/erp/icons/smooth-integration.png",
+        "cardTitle": "Smooth Integration",
+        "cardDes": "Using the iterative and agile business model, our team develops the MVP version of the ERP solution usually within 2-3 months and releases a new version every 4-6 weeks."
+      }
+    ]
+  },
+  "faqData": [
+    {
+      "question": "Why should I choose Qurilo for ERP development services?",
+      "answer": "We are a highly experienced and qualified team of professionals with a proven track record of delivering quality ERP solutions to clients. Here are a few reasons to choose us:",
+      "list": [
+        "Comprehensive ERP solutions",
+        "Expertise in various ERP platforms",
+        "Strong reputation for quality work",
+        "Experience across multiple industry verticals"
+      ]
+    },
+    {
+      "question": "Can I test Qurilo's ERP services before committing to a long-term engagement?",
+      "answer": "Yes, you can test Qurilo's ERP services before committing to a long-term engagement. We offer a free consultation to potential clients. This gives you a risk-free opportunity to experience our ERP development services. Fill out a form to connect with our team, and let us demonstrate the value we can bring to your business."
+    },
+    {
+      "question": "How much does it cost to develop an ERP system?",
+      "answer": "The cost of developing an ERP system depends on several factors such as the complexity of the application, required features, third-party integrations, platform choices, and more. Share your project requirements with us, and we can provide you with an estimated time and cost."
+    },
+    {
+      "question": "Do you offer white-label ERP development services?",
+      "answer": "Yes, we provide white-label ERP development services, including solutions for various business models such as B2B, B2C, and SaaS. Contact our experts to learn more about our white-label services. We ensure complete transparency and collaboration with our clients, tailoring our services to meet your unique requirements and offering 24/7 support."
+    },
+    {
+      "question": "Do you work with startups and clients with limited budgets?",
+      "answer": "Yes, we work with startups and clients on a budget. We have successfully partnered with numerous startups globally, helping them achieve their business goals. We offer initial technology consulting to help reduce costs and development time. Share your budget with us, and we will find a solution that fits your needs."
+    },
+    {
+      "question": "Is outsourcing ERP development risky? How do you ensure IP and data protection?",
+      "answer": "Outsourcing ERP development is not risky if you choose a reputable company. Qurilo ensures IP and data protection in the following ways:",
+      "list": [
+        "Signing Non-Disclosure Agreements (NDAs)",
+        "Compliance with industry regulations such as GDPR and HIPAA",
+        "Adherence to secure coding and data protection practices",
+        "Implementation of firewalls, encryption, and VPN services",
+        "Thorough verification of all employees before recruitment"
+      ]
+    },
+    {
+      "question": "What engagement options do you offer for ERP development?",
+      "answer": "At Qurilo, we offer a variety of engagement models to suit your project requirements. Whether you need a dedicated team for an ongoing project or additional support for a specific task, we have an engagement model to fit your needs.",
+      "list": [
+        "Dedicated Team: Includes a project manager, software engineer, QA engineer, and other roles as needed.",
+        "Staff Augmentation: Provides extra talent to support your projects, integrating seamlessly with your local team.",
+        "Offshore Development Center: A dedicated software development office with all necessary infrastructure and personnel in India, offering budget savings and faster development."
+      ]
+    },
+    {
+      "question": "How does the ERP development outsourcing process work?",
+      "answer": "The ERP development outsourcing process typically includes the following steps:",
+      "list": [
+        "Defining the project scope and objectives and finding a reliable provider.",
+        "The provider assembles a team of qualified professionals to work on the project.",
+        "The team collaborates closely with the client to ensure all deliverables meet or exceed expectations.",
+        "Upon completion, the client gives final approval and pays for the work completed."
+      ],
+      "paraAfterList": "Each ERP development outsourcing project is unique, so the process may vary. This approach ensures you get a capable team cost-effectively, with technical support throughout the project lifecycle."
+    },
+    {
+      "question": "What are the advantages of outsourcing ERP development to Qurilo over other regions?",
+      "answer": "Here are some reasons why outsourcing ERP development to Qurilo in India offers a competitive edge:",
+      "list": [
+        "Cost-effective development compared to other regions.",
+        "A large pool of highly skilled and talented ERP developers.",
+        "Extensive experience working with clients worldwide, offering world-class services and 24/7 support.",
+        "Potential savings of up to 60% on development costs."
+      ]
+    }
+  ]
+}

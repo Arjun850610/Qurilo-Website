@@ -1,24 +1,24 @@
 export const heroSection = {
   headline: "Customer Relationship Management",
-  description: "Automate your marketing, sales, and customer service with our CRM systems software development services. We offer reliable Customer Relationship Management software development, ensuring seamless customer tracking, purchase history, and contact management. Our solutions lead to cost savings and enhanced customer satisfaction.",
+  description:
+    "Automate your marketing, sales, and customer service with our CRM systems software development services. We offer reliable Customer Relationship Management software development, ensuring seamless customer tracking, purchase history, and contact management. Our solutions lead to cost savings and enhanced customer satisfaction.",
   button: "Contact Us",
 };
 
 // Service Section Data
-import consulting from "../assets/image/crm/Consulting.png"
-import Implementation from "../assets/image/crm/Implementation & Migration.png"
-import Custom from "../assets/image/crm/Custom Development.png"
-import Campaign from "../assets/image/crm/Campaign Management.png"
-import Testing from "../assets/image/crm/Testing.png"
-import Support from "../assets/image/crm/Support and Evolution.png"
+import consulting from "../assets/image/crm/Consulting.png";
+import Implementation from "../assets/image/crm/Implementation & Migration.png";
+import Custom from "../assets/image/crm/Custom Development.png";
+import Campaign from "../assets/image/crm/Campaign Management.png";
+import Testing from "../assets/image/crm/Testing.png";
+import Support from "../assets/image/crm/Support and Evolution.png";
 
 export const servicesCardsData = [
   {
     image: consulting,
     heading: "Consulting",
-    desciption:
-      "We cover custom CRM system software development projects and process consulting. Project consulting helps organizations with the implementation and management of CRM projects. Our process consulting focuses on the processes and workflows involved in CRM.",
-  },
+    desciption: "We build custom e-commerce platforms tailored to your business requirements, ensuring a seamless shopping experience for your customers. Our platforms are designed to be scalable and secure, with features that enhance user engagement and drive sales growth. From simple online stores to complex marketplaces, we have the expertise to bring your vision to life."
+      },
   {
     image: Implementation,
     heading: "Implementation & Migration",
@@ -70,6 +70,10 @@ export const technologies = [
   },
   {
     heading: "Custom Development: back end",
+    tech: [".net", "Java", "php", "Python", "Go", "NodeJS"],
+  },
+  {
+    heading: "Custom Development: front end",
     tech: [".net", "Java", "php", "Python", "Go", "NodeJS"],
   },
   {
@@ -300,143 +304,165 @@ export const Testimaonials = [
 // Software Modules Section Data
 
 // import consulting from "../images/consulting.png";
-// import Campaign from "../images/Campaign.png";
-// import Implementation from "../images/Implementation.png";
-// import Testing from "../images/Testing.png";
 
 export const SoftwareModulesData = {
-  heading: "Equipped with Capabilities to Develop Customer Relationship Management",
-  subHeading: "Depending on your business needs, we cover the development of the following ERP software modules to raise the efficiency of your workflows.",
+  heading:
+    "Equipped with Capabilities to Develop Customer Relationship Management",
+  subHeading:
+    "Depending on your business needs, we cover the development of the following ERP software modules to raise the efficiency of your workflows.",
   cardsData: [
     {
       image: consulting,
       moduleName: "CRM for Retail",
-      moduleDescription: "Enhance retail operations with CRM solutions tailored for managing customer relationships, sales tracking, and customer support."
+      moduleDescription:
+        "Enhance retail operations with CRM solutions tailored for managing customer relationships, sales tracking, and customer support.",
     },
     {
       image: Campaign,
       moduleName: "CRM for Healthcare",
-      moduleDescription: "Empower healthcare providers with CRM tools designed to streamline patient interactions, appointment scheduling, and medical records management."
+      moduleDescription:
+        "Empower healthcare providers with CRM tools designed to streamline patient interactions, appointment scheduling, and medical records management.",
     },
     {
       image: Implementation,
       moduleName: "CRM for Finance",
-      moduleDescription: "Optimize financial services with CRM modules focusing on client acquisition, investment management, and financial planning."
+      moduleDescription:
+        "Optimize financial services with CRM modules focusing on client acquisition, investment management, and financial planning.",
     },
     {
       image: Testing,
       moduleName: "CRM for Education",
-      moduleDescription: "Improve educational institutions' efficiency with CRM systems that assist in student enrollment, course management, and alumni relations."
+      moduleDescription:
+        "Improve educational institutions' efficiency with CRM systems that assist in student enrollment, course management, and alumni relations.",
     },
     {
       image: consulting,
       moduleName: "CRM for Hospitality",
-      moduleDescription: "Transform hospitality services with CRM platforms that facilitate guest bookings, loyalty program management, and customer feedback."
+      moduleDescription:
+        "Transform hospitality services with CRM platforms that facilitate guest bookings, loyalty program management, and customer feedback.",
     },
     {
       image: Campaign,
       moduleName: "CRM for Real Estate",
-      moduleDescription: "Streamline real estate operations with CRM solutions for property management, client communication, and lead generation."
+      moduleDescription:
+        "Streamline real estate operations with CRM solutions for property management, client communication, and lead generation.",
     },
     {
       image: Implementation,
       moduleName: "CRM for Automotive",
-      moduleDescription: "Enhance automotive business processes with CRM tools tailored for sales pipeline management, customer service, and dealership operations."
+      moduleDescription:
+        "Enhance automotive business processes with CRM tools tailored for sales pipeline management, customer service, and dealership operations.",
     },
     {
       image: Testing,
       moduleName: "CRM for IT Services",
-      moduleDescription: "Support IT service providers with CRM modules focusing on client relationship management, project tracking, and service desk operations."
+      moduleDescription:
+        "Support IT service providers with CRM modules focusing on client relationship management, project tracking, and service desk operations.",
     },
     {
       image: consulting,
       moduleName: "CRM for Telecommunications",
-      moduleDescription: "Optimize telecom services with CRM systems that manage subscriber interactions, service provisioning, and billing operations."
+      moduleDescription:
+        "Optimize telecom services with CRM systems that manage subscriber interactions, service provisioning, and billing operations.",
     },
     {
       image: Campaign,
       moduleName: "CRM for Manufacturing",
-      moduleDescription: "Improve manufacturing efficiency with CRM platforms that handle customer orders, supply chain management, and production planning."
+      moduleDescription:
+        "Improve manufacturing efficiency with CRM platforms that handle customer orders, supply chain management, and production planning.",
     },
     {
       image: Implementation,
       moduleName: "CRM for Logistics",
-      moduleDescription: "Enhance logistics operations with CRM tools for shipment tracking, inventory management, and client relationship optimization."
+      moduleDescription:
+        "Enhance logistics operations with CRM tools for shipment tracking, inventory management, and client relationship optimization.",
     },
     {
       image: Testing,
       moduleName: "CRM for E-commerce",
-      moduleDescription: "Boost e-commerce performance with CRM solutions for customer engagement, order fulfillment, and sales analytics."
+      moduleDescription:
+        "Boost e-commerce performance with CRM solutions for customer engagement, order fulfillment, and sales analytics.",
     },
-  ]
+  ],
 };
 
-
 // Why Choose Us section
-import Comprehensive from "../assets/image/crm/comprehensive.png"
-import faster from "../assets/image/crm/faster-development.png"
-import support from "../assets/image/crm/end-to-end-support.png"
-import transparency from "../assets/image/crm/greater-transparency.png"
-import multiplatform from "../assets/image/crm/multi-platform-erp.png"
-import integration from "../assets/image/crm/smooth-integration.png"
+import Comprehensive from "../assets/image/crm/comprehensive.png";
+import faster from "../assets/image/crm/faster-development.png";
+import support from "../assets/image/crm/end-to-end-support.png";
+import transparency from "../assets/image/crm/greater-transparency.png";
+import multiplatform from "../assets/image/crm/multi-platform-erp.png";
+import integration from "../assets/image/crm/smooth-integration.png";
 
 export const WhyChooseUsData = {
-  title: "Why Partner With Qurilo For Your Customer Relationship Management System?",
+  title:
+    "Why Partner With Qurilo For Your Customer Relationship Management System?",
   des: "As a globally renowned CRM consulting company with almost a decade of experience in enterprise software development, Qurilo has developed a number of custom CRM software solutions for clients across a broad range of industries, delivering exceptional and robust solutions.",
   cards: [
     {
       image: Comprehensive,
       cardTitle: "Comprehensive CRM Solutions",
-      cardDes: "Whether you want to build an CRP system from scratch or need improvement in the existing one, we get all your needs covered without sacrificing business continuity."
+      cardDes:
+        "Whether you want to build an CRP system from scratch or need improvement in the existing one, we get all your needs covered without sacrificing business continuity.",
     },
     {
       image: faster,
       cardTitle: "Faster Development Timelines",
-      cardDes: "Using the iterative and agile business model, our team develops the MVP version of the CRM solution usually within 2-3 months and releases a new version every 4-6 weeks."
+      cardDes:
+        "Using the iterative and agile business model, our team develops the MVP version of the CRM solution usually within 2-3 months and releases a new version every 4-6 weeks.",
     },
     {
       image: support,
       cardTitle: "End-to-End Support",
-      cardDes: "Whether you want to build an CRP system from scratch or need improvement in the existing one, we get all your needs covered without sacrificing business continuity."
+      cardDes:
+        "Whether you want to build an CRP system from scratch or need improvement in the existing one, we get all your needs covered without sacrificing business continuity.",
     },
     {
       image: transparency,
       cardTitle: "Assured Transparency",
-      cardDes: "We provide high transparency not only on the development process but also on pricing. We regularly report the information needed to make the right business decisions and offer fair pricing at every stage of the project."
+      cardDes:
+        "We provide high transparency not only on the development process but also on pricing. We regularly report the information needed to make the right business decisions and offer fair pricing at every stage of the project.",
     },
     {
       image: multiplatform,
       cardTitle: "Multi-Platform CRM Compatibility",
-      cardDes: "Our custom CRM business software solutions are accessible on different platforms, be it mobile, web, or desktop. We focus on building an intuitive UI/UX that boosts user engagement and satisfaction."
+      cardDes:
+        "Our custom CRM business software solutions are accessible on different platforms, be it mobile, web, or desktop. We focus on building an intuitive UI/UX that boosts user engagement and satisfaction.",
     },
     {
       image: integration,
       cardTitle: "Smooth Integration",
-      cardDes: "Our team ensures smooth integration of the CRM solution with popular platforms such as Magento and Salesforce, cutting-edge technologies such as blockchain and IoT, and other CRM modules."
+      cardDes:
+        "Our team ensures smooth integration of the CRM solution with popular platforms such as Magento and Salesforce, cutting-edge technologies such as blockchain and IoT, and other CRM modules.",
     },
-  ]
-}
+  ],
+};
 
-// Blog Section Data 
-import blogImage1 from "../assets/image/crm/Picture3.jpg"
+// Blog Section Data
+import blogImage1 from "../assets/image/crm/Picture3.jpg";
 
 export const blogData = [
   {
     date: "Jun,26,24",
     image: `${blogImage1}`,
-    title: "Case Study: Start of Ola – Safe and Secure Transport Revolution in India",
-    subtitle: "Introduction OLA, India’s leading taxi app company, has redefined transportation in the country,..."
+    title:
+      "Case Study: Start of Ola – Safe and Secure Transport Revolution in India",
+    subtitle:
+      "Introduction OLA, India’s leading taxi app company, has redefined transportation in the country,...",
   },
   {
     date: "jun,26,23",
     image: `${blogImage1}`,
-    title: "The Impact of AI on Industries: The Future of Automation and Human Collaboration",
-    subtitle: "The Potential of Artificial Intelligence in Coimbatore Coimbatore, a melting pot of technology and..."
+    title:
+      "The Impact of AI on Industries: The Future of Automation and Human Collaboration",
+    subtitle:
+      "The Potential of Artificial Intelligence in Coimbatore Coimbatore, a melting pot of technology and...",
   },
   {
     date: "Mar,26,22",
     image: `${blogImage1}`,
     title: "Lights, Camera, Reel: the Power of Short-Form Video Content",
-    subtitle: "Lights, Camera, Reel: the Power of Short-Form Video Content What is Short-form Video Short-form..."
-  }
-]
+    subtitle:
+      "Lights, Camera, Reel: the Power of Short-Form Video Content What is Short-form Video Short-form...",
+  },
+];
