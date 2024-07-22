@@ -1,0 +1,48 @@
+/* Ensure swiper container is relatively positioned for absolute positioning of buttons */
+.swiper-container {
+    position: relative;
+  }
+  
+  /* Position both navigation buttons together */
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 1px;
+    transform: translateY(-50%);
+    z-index: 10;
+    border: 2px solid #558dbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Make buttons circular */
+    padding: 10px 30px;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .swiper-button-next {
+    right: 50px; /* Adjust as needed */
+  }
+  
+  .swiper-button-prev {
+    left: 50px; /* Adjust as needed */
+  }
+  
+  /* Button styles on hover */
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: #558dbc;
+    color: white;
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 18px;
+    color: rgb(0, 0, 0); /* Icon color */
+  }
+  
+  .swiper-button-next:hover::after,
+  .swiper-button-prev:hover::after {
+    color: white; /* Icon color on hover */
+  }
+  

@@ -3,11 +3,14 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 const ExploreMoreButton = () => {
   return (
-    <div className="group">
-      <button className="w-full py-2 border-[2px] border-primary-500 rounded-md hover:bg-primary-500 hover:text-white transition-all ease-linear duration-200 text-primary-500 text-xl flex items-center justify-center gap-2 font-semibold ">
-        <p>Explore More</p> <MdArrowForwardIos className=" group-hover:text-white" />
-      </button>
+
+    <div className="w-full py-4 text-center bg-primary-500 text-white  rounded-lg hover:bg-gradient-to-tr from-[#3667b1]  to-primary-500 transition-all duration-500 ease-in-out">
+      <div className="w-full flex items-center justify-center gap-2 hover:gap-3 transition-all duration-300 ease-in-out">
+      <p className="">Explore More</p>
+      <MdArrowForwardIos />
+      </div>
     </div>
+
   );
 };
 

@@ -1,45 +1,52 @@
-.card-container {
-  width: 100%;
-  min-height: 20rem;
-  perspective: 1000px; /* Define perspective for 3D effect */
-}
-
 .card {
-  position: relative;
+  overflow: visible;
   width: 100%;
-  min-height: 20rem; /* Adjust height as needed */
-  transition: transform 0.8s ease; /* Adjust transition timing and easing */
+}
+
+.content {
+  width: 100%;
+  height: 100%;
   transform-style: preserve-3d;
+  transition: transform 700ms;
+  border-radius: 5px;
 }
 
-.card:hover {
-  transform: rotateY(180deg);
-}
-
-.front,
-.back {
+.front, .back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: opacity 0.4s ease; /* Add opacity transition for smoother fade-in/out */
-}
-
-.front {
-  z-index: 2;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .back {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.back-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover .content {
   transform: rotateY(180deg);
-  opacity: 0; /* Hide initially to fade in */
+  cursor: pointer;
 }
 
-.card:hover .front {
-  opacity: 0; /* Fade out front side on hover */
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
 }
 
-.card:hover .back {
-  opacity: 1; /* Fade in back side on hover */
+.front {
+  transform: rotateY(180deg);
 }

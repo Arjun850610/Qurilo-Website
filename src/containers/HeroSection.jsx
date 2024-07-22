@@ -4,21 +4,8 @@ import bigScreenImage from "../assets/image/crm/contentManagement.jpg"
 import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from "react";
 import ContactButton from "../buttons/ContactButton";
-import { fetchData } from "../api/banner";
 
 const HeroSection = ({ data }) => {
-
-  const [banner, setbanner] = useState({})
-  // console.log(banner)
-  // const getData = async() =>{
-  //   const response = await fetchData()
-  //   console.log(response)  
-  //   setbanner(response)
-  // }
-
-  // useEffect(()=>{
-  //   getData()
-  // },[])
   const isMobile = useMediaQuery({ maxWidth: 768 });
   const [isScrolledPast, setIsScrolledPast] = useState(false);
   const handleScroll = () => {
