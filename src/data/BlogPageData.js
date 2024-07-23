@@ -6,19 +6,19 @@ import topbannerImage from "../assets/images2/image.png";
 export const data = {
   heading: "Qurilo Technology Blogs",
   des: "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur.",
-  bgImage,
-  topbannerImage,
+  bgImage: bgImage,
+  topbannerImage: topbannerImage,
   cardsData: [
     {
-      image: "https://s3-alpha-sig.figma.com/img/f154/bd3b/5a67863782812b3b90c7b36474bd6336?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J1USJHOXj6AtsL9UGW4a4ds55w61Qzhnx8lYTA2wHq6AUqDrhk~58mHhFi4Ya6KODVXMm8kJU8tXlXqdy3z7saBCMOpDwPIiFbegKs2B~~YSRTBJ762qqkev~Yf0TPj2ILUJnsyG031B8RRaVC9UwuDEWSKJ7BvyIAgm6UNPuSWztfDb6T1YFqblx68qHrYfKY2dG8tpPtnuifi6uPiGPGV0~U6uChyaOCwNVQqGFZ4XgWx0Bc9MQuAyXgssot4vklDU6AOlHpfrv9oVVhQH-Kq7RnkzjLAprkUf8o4Fzk8Ac~1kc3UAvtVkt7z1buaY63qeQlTUZpkkO2L6NmBNFA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: "https://images.stockcake.com/public/d/6/0/d6013a4f-15c4-40a2-a34c-ec8fabeb66a9_large/tech-team-meeting-stockcake.jpg",
+      date: "July 23, 2024",
+      title: "Elevate Your Online Presence with Qurilo: A Comprehensive Guide to Website Development",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "Investing in website development is crucial for establishing a strong online presence. At Qurilo, we specialize in creating professional, user-friendly websites that enhance your brand’s credibility and drive growth. Our comprehensive approach includes understanding your needs, designing intuitive interfaces, employing the latest development technologies, and optimizing for performance and SEO. We ensure a seamless launch and offer ongoing support to keep your site effective and secure. Partner with Qurilo to elevate your online presence and achieve your digital goals.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/cc7e/b52f/d436c27bc37bf628329ef67c42229a8a?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S4nf-sCHX7IIdQfBodxlshNEbbOhuc14wdZDd~~FV8AVVEsW~Axs5dLY-oWbioGbqxK9X7dTCgJgdAKhnZyK6skyB84DSHjNdl5YwZdkykeTXk8vvkL3AwjQI96DqWnxP5lmx2zHQTSXGRhzqFM5LlUEz2t-00IhAOllzNrbOB0sXytaCmTxHE0TO2xj2wVasr5CbRgl8hHYtHj5FXODiN4bW6628VTyZw8xoFzmy-VHu0hyxupIAptAWOvyl67IZFOGppHWNJdf6i32S-TB9BedYMHxP1W7v4~~ePlLJ~1rwQ89JK8qmWIhfijzG7xsJ0qVF0eOdJ4KFAZc8UlgWA__",
+      image: "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169864.jpg?t=st=1721727301~exp=1721730901~hmac=36f7fa77ca0930b50516ad19b74348213dc70b492a91b5153ad4dbdc0d82cfcf&w=1380",
       date: "22 july 2024",
       title: "Lorem ipsum dolor sit amet consectetur. dolor ",
       description:
