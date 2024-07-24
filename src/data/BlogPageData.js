@@ -1,6 +1,13 @@
-import image1 from "../assets/businessSolutionsImages/image11.png";
-import bgImage from "../assets/images2/blogBG.png";
-import topbannerImage from "../assets/images2/image.png";
+import bgImage from "../assets/blog-page/images/blogBG.png";
+import topbannerImage from "../assets/blog-page/images/image.png";
+import backend from "../assets/blog-page/images/backend.jpg";
+import frontend from "../assets/blog-page/images/frontend.jpg";
+import api from "../assets/blog-page/images/api.jpg";
+import cloud from "../assets/blog-page/images/cloud.jpg";
+import devops from "../assets/blog-page/images/devops.jpg";
+import fullstack from "../assets/blog-page/images/full stack.jpg";
+import mobile from "../assets/blog-page/images/Mobile.jpg";
+import website from "../assets/blog-page/images/website.jpg";
 
 
 export const data = {
@@ -10,99 +17,83 @@ export const data = {
   topbannerImage: topbannerImage,
   cardsData: [
     {
-      image: "https://images.stockcake.com/public/d/6/0/d6013a4f-15c4-40a2-a34c-ec8fabeb66a9_large/tech-team-meeting-stockcake.jpg",
+      image: website,
       date: "July 23, 2024",
-      title: "Elevate Your Online Presence with Qurilo: A Comprehensive Guide to Website Development",
+      title:
+        "Transform Your Business with Qurilo: Expert Web App Development Services",
       description:
-        "Investing in website development is crucial for establishing a strong online presence. At Qurilo, we specialize in creating professional, user-friendly websites that enhance your brand’s credibility and drive growth. Our comprehensive approach includes understanding your needs, designing intuitive interfaces, employing the latest development technologies, and optimizing for performance and SEO. We ensure a seamless launch and offer ongoing support to keep your site effective and secure. Partner with Qurilo to elevate your online presence and achieve your digital goals.",
+        "Web app development is essential for providing dynamic, interactive experiences to users. At Qurilo, we specialize in developing high-performance web applications tailored to your business needs. Our team focuses on creating scalable, secure, and user-friendly web apps using the latest technologies. From initial concept to deployment, we ensure a seamless development process and provide ongoing support. Partner with Qurilo to transform your business and achieve your digital objectives with cutting-edge web app solutions.",
       link: "",
     },
     {
-      image: "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169864.jpg?t=st=1721727301~exp=1721730901~hmac=36f7fa77ca0930b50516ad19b74348213dc70b492a91b5153ad4dbdc0d82cfcf&w=1380",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image:mobile,
+      date: "July 23, 2024",
+      title:
+        "Reach Your Audience on the Go with Qurilo: Mobile App Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "Mobile app development is key to engaging with users on their preferred devices. Qurilo offers expert mobile app development services for both iOS and Android platforms. Our approach involves understanding your requirements, designing intuitive interfaces, and leveraging the latest technologies to build responsive and feature-rich apps. We focus on performance, security, and user experience to deliver apps that drive engagement and business growth. Elevate your mobile presence with Qurilo’s comprehensive mobile app development solutions.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/2dca/806c/d09d618e54bc3c1dbef035d0a4d37963?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AVdZwXFY8V8iAG10IqOG1r~l7puw6IMDUYc2zx7woSttmBx17UMWGnrjx~B0zpfvf2fnDjW4fDMy15P9DsIm5TTXEQxMjqS5jgxQhppzlDPhwA8NfuTKIwVpUM-nOj3NxJFlXtpxzTFZ~3ALV8ghBE--Q972fh0L~DgT-dT-cqtldkT7eRBsXdndFTkapeuAlPlCEFFPmHGOil31ByUqnBCps2Qi4F3kA5gyzWrmiJvPTjq2EG884btnsFD9u2vjh6g6rnKg875HH7612GddcgXNiJeIZDOhS31rKoyD2Vjsh0Wca6MTvIwvm6Ic9yeolAgTXBtDJo6i0sP0d7tIWA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: backend,
+      date: "July 23, 2024",
+      title:
+        "Ensure Robust Performance with Qurilo: Backend Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "A strong backend is vital for the smooth operation of any application. Qurilo provides top-notch backend development services that focus on creating scalable, secure, and efficient server-side solutions. Our team uses modern technologies and best practices to develop robust backends that support your application’s functionality and growth. From database management to API integration, we handle all aspects of backend development to ensure your app runs seamlessly. Trust Qurilo for reliable backend development that powers your success.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/9059/4954/627ca0e79beab832b82b0e14c1264f38?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VZYvZV~wAPTTfig6MJuRCXxpSlW1I31afoKXyFWj7Be91d1mn8WMijFzGlzf7PBdS1AgE6Hw1n3nPlt0xJ1liW-eXVOhvWIOCbpQdzb7J0XX40LV~jH2MEBD9Z3ydzvAgwjjFGUAOeqcMSDtHQXRAh0xXzSNeJ8H5-qUY~IM5VgqExP9bChvNtpFir6oqkp8uyViMa8wBBYbRmf0Fexo8taiKSc4gFQ8WEXMiFPoTQUXsuBSng8Iq25i3nMMW1-PefbXnacz3Jl5VVGyQ0h3khoPMAdzznhPuWCM5P0QclA1hSMvUqPhq~j7FwvbJsK7pVp~ZG4VjTK8JCYJ~N-ZGg__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: frontend,
+      date: "July 23, 2024",
+      title:
+        "Captivate Users with Qurilo: Expert Frontend Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "Frontend development is crucial for creating engaging user interfaces that enhance the user experience. At Qurilo, we specialize in crafting visually appealing and highly responsive frontends using the latest frameworks and technologies. Our team focuses on usability, accessibility, and performance to deliver interfaces that captivate users and drive interaction. Whether you need a simple website or a complex web application, Qurilo’s frontend development services ensure your users enjoy a seamless and enjoyable experience.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/ec8c/3737/b74652d40a786471bbb17504006033e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RFoTERJ0HSg8pIiHC3ef2xGyOS1NjFcu2qi4ymTW4bC-DkR8T20QLEFZN4OZ8OA~6N6awsxJB8OEw-Qt86kiAGjgdOGXmpcErsHrS~KZuJczNZSEApifQMRMDeldxRhSPBP8qfDppfKROWocUGRqH8iLid5xEIl2RGMN7UswUMZhgcysd4NA8zUcqF64mBRwSNo13dbQid03GU3j8JfVvb8K1SNwvpHdNQHscAGm1Lf8deI1OaE3q6~geaEJdyDFL-B3Ih19oYJjSCaz5ubr9RzbPF1qvoSpy9LmlMkmbtvRbWdhfwfz3fCsr67AIEdEqvdmvpdzKRYfKuO98h~wJA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: api,
+      date: "July 23, 2024",
+      title:
+        "Enhance Connectivity with Qurilo: Professional API Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "APIs are essential for enabling communication between different software systems. Qurilo offers professional API development services that facilitate seamless integration and data exchange. Our team designs and implements robust APIs tailored to your specific needs, ensuring secure and efficient communication between your applications. With a focus on scalability, performance, and security, Qurilo’s API development services help you enhance connectivity and streamline operations. Partner with us to create powerful APIs that drive innovation and efficiency.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/efc1/a28b/61b34e5e8da574eab3e7d9b66c5fa842?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f1D5hx5F8-vdedczUlRcBVyES~gScWCRub6TTE6ULvDrqwmhElbZnMPZidlAqNZm1PiASpdiW~0M-A8K5Zq-hvixA6ULTjH5-QF56ef9WbVAFEVDmFvwnFWsjgbCjaB9YRI0CmwakNC8ndofDdPrTsLTopMU6Z9I4PEuqNeAsgAj3Fqx-d5pzFHXs3YS1DnWcYvzoRJ7aICrXdR4pv6qwhy-lUzoHrZWUNMXXO55VXlWbGox80jv4OfkuZXiNlFFMgF9TPHryy--BZcADntD0z30qRmq84xxjYwj7U4wi-CxWZIt9oGxpn7DKKa0D3enEn7heqMT-XV~aHdaqaFqlA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: website,
+      date: "July 23, 2024",
+      title:
+        "Create Engaging Online Platforms with Qurilo: Website & Portal Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "A well-designed website or portal is crucial for engaging users and driving business growth. Qurilo specializes in developing professional, user-friendly websites and portals that reflect your brand’s identity and meet your business goals. Our comprehensive approach includes understanding your needs, designing intuitive interfaces, and using the latest technologies to build responsive and secure platforms. From e-commerce sites to corporate portals, Qurilo’s development services ensure your online presence is effective and impactful.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/f154/bd3b/5a67863782812b3b90c7b36474bd6336?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J1USJHOXj6AtsL9UGW4a4ds55w61Qzhnx8lYTA2wHq6AUqDrhk~58mHhFi4Ya6KODVXMm8kJU8tXlXqdy3z7saBCMOpDwPIiFbegKs2B~~YSRTBJ762qqkev~Yf0TPj2ILUJnsyG031B8RRaVC9UwuDEWSKJ7BvyIAgm6UNPuSWztfDb6T1YFqblx68qHrYfKY2dG8tpPtnuifi6uPiGPGV0~U6uChyaOCwNVQqGFZ4XgWx0Bc9MQuAyXgssot4vklDU6AOlHpfrv9oVVhQH-Kq7RnkzjLAprkUf8o4Fzk8Ac~1kc3UAvtVkt7z1buaY63qeQlTUZpkkO2L6NmBNFA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: fullstack,
+      date: "July 23, 2024",
+      title:
+        "Achieve Comprehensive Solutions with Qurilo: Full Stack Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "Full stack development offers a comprehensive approach to building web applications by handling both frontend and backend development. Qurilo’s full stack development services provide end-to-end solutions tailored to your business needs. Our team has expertise in a wide range of technologies and frameworks, ensuring the seamless integration of all components of your application. From concept to deployment, we deliver high-quality, scalable solutions that drive your business forward. Trust Qurilo for full stack development that covers every aspect of your project.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/cc7e/b52f/d436c27bc37bf628329ef67c42229a8a?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S4nf-sCHX7IIdQfBodxlshNEbbOhuc14wdZDd~~FV8AVVEsW~Axs5dLY-oWbioGbqxK9X7dTCgJgdAKhnZyK6skyB84DSHjNdl5YwZdkykeTXk8vvkL3AwjQI96DqWnxP5lmx2zHQTSXGRhzqFM5LlUEz2t-00IhAOllzNrbOB0sXytaCmTxHE0TO2xj2wVasr5CbRgl8hHYtHj5FXODiN4bW6628VTyZw8xoFzmy-VHu0hyxupIAptAWOvyl67IZFOGppHWNJdf6i32S-TB9BedYMHxP1W7v4~~ePlLJ~1rwQ89JK8qmWIhfijzG7xsJ0qVF0eOdJ4KFAZc8UlgWA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: devops,
+      date: "July 23, 2024",
+      title: "Optimize Your Development Workflow with Qurilo: DevOps Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "DevOps practices are essential for optimizing development workflows and ensuring smooth deployment processes. At Qurilo, we offer professional DevOps services that streamline your development pipeline, enhance collaboration, and improve efficiency. Our team uses the latest tools and methodologies to automate processes, manage infrastructure, and ensure continuous integration and delivery. By partnering with Qurilo, you can achieve faster time-to-market and maintain high-quality software through our expert DevOps solutions.",
       link: "",
     },
     {
-      image: "https://s3-alpha-sig.figma.com/img/2dca/806c/d09d618e54bc3c1dbef035d0a4d37963?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AVdZwXFY8V8iAG10IqOG1r~l7puw6IMDUYc2zx7woSttmBx17UMWGnrjx~B0zpfvf2fnDjW4fDMy15P9DsIm5TTXEQxMjqS5jgxQhppzlDPhwA8NfuTKIwVpUM-nOj3NxJFlXtpxzTFZ~3ALV8ghBE--Q972fh0L~DgT-dT-cqtldkT7eRBsXdndFTkapeuAlPlCEFFPmHGOil31ByUqnBCps2Qi4F3kA5gyzWrmiJvPTjq2EG884btnsFD9u2vjh6g6rnKg875HH7612GddcgXNiJeIZDOhS31rKoyD2Vjsh0Wca6MTvIwvm6Ic9yeolAgTXBtDJo6i0sP0d7tIWA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
+      image: cloud,
+      date: "July 23, 2024",
+      title:
+        "Leverage the Power of the Cloud with Qurilo: Cloud Development Services",
       description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
-      link: "",
-    },
-    {
-      image: "https://s3-alpha-sig.figma.com/img/9059/4954/627ca0e79beab832b82b0e14c1264f38?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VZYvZV~wAPTTfig6MJuRCXxpSlW1I31afoKXyFWj7Be91d1mn8WMijFzGlzf7PBdS1AgE6Hw1n3nPlt0xJ1liW-eXVOhvWIOCbpQdzb7J0XX40LV~jH2MEBD9Z3ydzvAgwjjFGUAOeqcMSDtHQXRAh0xXzSNeJ8H5-qUY~IM5VgqExP9bChvNtpFir6oqkp8uyViMa8wBBYbRmf0Fexo8taiKSc4gFQ8WEXMiFPoTQUXsuBSng8Iq25i3nMMW1-PefbXnacz3Jl5VVGyQ0h3khoPMAdzznhPuWCM5P0QclA1hSMvUqPhq~j7FwvbJsK7pVp~ZG4VjTK8JCYJ~N-ZGg__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
-      description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
-      link: "",
-    },
-    {
-      image: "https://s3-alpha-sig.figma.com/img/ec8c/3737/b74652d40a786471bbb17504006033e6?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RFoTERJ0HSg8pIiHC3ef2xGyOS1NjFcu2qi4ymTW4bC-DkR8T20QLEFZN4OZ8OA~6N6awsxJB8OEw-Qt86kiAGjgdOGXmpcErsHrS~KZuJczNZSEApifQMRMDeldxRhSPBP8qfDppfKROWocUGRqH8iLid5xEIl2RGMN7UswUMZhgcysd4NA8zUcqF64mBRwSNo13dbQid03GU3j8JfVvb8K1SNwvpHdNQHscAGm1Lf8deI1OaE3q6~geaEJdyDFL-B3Ih19oYJjSCaz5ubr9RzbPF1qvoSpy9LmlMkmbtvRbWdhfwfz3fCsr67AIEdEqvdmvpdzKRYfKuO98h~wJA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
-      description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
-      link: "",
-    },
-    {
-      image: "https://s3-alpha-sig.figma.com/img/efc1/a28b/61b34e5e8da574eab3e7d9b66c5fa842?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f1D5hx5F8-vdedczUlRcBVyES~gScWCRub6TTE6ULvDrqwmhElbZnMPZidlAqNZm1PiASpdiW~0M-A8K5Zq-hvixA6ULTjH5-QF56ef9WbVAFEVDmFvwnFWsjgbCjaB9YRI0CmwakNC8ndofDdPrTsLTopMU6Z9I4PEuqNeAsgAj3Fqx-d5pzFHXs3YS1DnWcYvzoRJ7aICrXdR4pv6qwhy-lUzoHrZWUNMXXO55VXlWbGox80jv4OfkuZXiNlFFMgF9TPHryy--BZcADntD0z30qRmq84xxjYwj7U4wi-CxWZIt9oGxpn7DKKa0D3enEn7heqMT-XV~aHdaqaFqlA__",
-      date: "22 july 2024",
-      title: "Lorem ipsum dolor sit amet consectetur. dolor ",
-      description:
-        "Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. LoreLorem ipsum dolor sit amet consectetur. m ipsum dolor sit amet consectetur. ",
+        "Cloud development is key to building scalable, flexible, and cost-effective applications. Qurilo offers expert cloud development services that harness the power of cloud platforms like AWS, Azure, and Google Cloud. Our team designs and implements cloud-based solutions that meet your business needs, ensuring security, performance, and scalability. Whether you need cloud migration, cloud-native app development, or cloud management, Qurilo provides comprehensive services to help you leverage the benefits of the cloud.",
       link: "",
     },
   ],

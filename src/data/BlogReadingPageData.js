@@ -1,5 +1,4 @@
-import image from "../assets/blog-reading/blogReadingImage.jpg"
-import socialMarketing from "../assets/blog-reading/marketing.jpg"
+import image from "../assets/blog-reading/images/blogReadingImage.jpg"
 
 export const data = {
   image: image,

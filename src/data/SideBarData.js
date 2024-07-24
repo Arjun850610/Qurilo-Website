@@ -1,3 +1,10 @@
+import socialMarketing from "../assets/blog-reading/images/marketing.jpg"
+import digital from "../assets/blog-reading/images/digital.jpg"
+import email from "../assets/blog-reading/images/email.jpg"
+import fullstack from "../assets/blog-page/images/full stack.jpg";
+import mobile from "../assets/blog-page/images/Mobile.jpg";
+import website from "../assets/blog-page/images/website.jpg";
+
 export const sideBarData = {
     aboutUsSection: {
         aboutHeading: "About Us",
@@ -16,16 +23,16 @@ export const sideBarData = {
 
     recentBlogs: [
         {
-            image: "https://images.stockcake.com/public/d/6/0/d6013a4f-15c4-40a2-a34c-ec8fabeb66a9_large/tech-team-meeting-stockcake.jpg",
-            title: "Transforming Ideas into Digital Reality: Qurilo's Custom Web Development Services"
+            image: fullstack,
+            title: "Achieve Comprehensive Solutions with Qurilo: Full Stack Development Services"
         },
         {
-            image: "https://images.stockcake.com/public/d/6/0/d6013a4f-15c4-40a2-a34c-ec8fabeb66a9_large/tech-team-meeting-stockcake.jpg",
-            title: "Transforming Ideas into Digital Reality: Qurilo's Custom Web Development Services"
+            image: mobile,
+            title: "Reach Your Audience on the Go with Qurilo: Mobile App Development Services"
         },
         {
-            image: "https://images.stockcake.com/public/d/6/0/d6013a4f-15c4-40a2-a34c-ec8fabeb66a9_large/tech-team-meeting-stockcake.jpg",
-            title: "Transforming Ideas into Digital Reality: Qurilo's Custom Web Development Services"
+            image: website,
+            title: "Create Engaging Online Platforms with Qurilo: Website & Portal Development Services"
         },
     ],
 
@@ -35,12 +42,12 @@ export const sideBarData = {
             name: "Social Media Marketing"
         },
         {
-            image: socialMarketing,
-            name: "Social Media Marketing"
+            image: email,
+            name: "Email Marketing"
         },
         {
-            image: socialMarketing,
-            name: "Social Media Marketing"
+            image: digital,
+            name: "Digital Marketing"
         },
     ]
 }

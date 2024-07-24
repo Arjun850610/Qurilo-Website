@@ -5,7 +5,7 @@ import { BsSuitDiamond } from "react-icons/bs";
 const BlogSideBar = () => {
   return (
     <section>
-      <div className="hidden lg:block lg:w-[30%]">
+      <div className="w-full">
         <div className="flex flex-col gap-5">
           <h4 className="text-xl  sm:text-2xl tracking-wide font-medium before:'' before:w-10 before:h-1 before:bg-primary-500 relative ">
             {sideBarData?.aboutUsSection?.aboutHeading}
@@ -46,7 +46,7 @@ const BlogSideBar = () => {
                 <img
                   src={item.image}
                   alt={`image ${j + 1}`}
-                  className="w-24 h-20 rounded-sm object-cover"
+                  className="!w-20 !h-20 rounded-sm object-cover"
                 />
                 <h6 className="text-[16px] font-medium leading-6 ">
                   {item.title}

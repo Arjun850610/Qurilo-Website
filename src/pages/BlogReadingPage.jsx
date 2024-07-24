@@ -58,7 +58,7 @@ const BlogReadingPage = () => {
           </div>
 
           {/* side bar */}
-         <div className="">
+         <div className="hidden lg:block lg:w-[30%]">
           <BlogSideBar />
          </div>
 
