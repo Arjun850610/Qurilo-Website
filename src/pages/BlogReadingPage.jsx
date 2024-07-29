@@ -1,6 +1,5 @@
 import React from "react";
 import { data } from "../data/BlogReadingPageData";
-import BlogReadingTopBanner from "../containers/BlogReadingTopBanner";
 
 import BlogSideBar from "../components/BlogSideBar";
 

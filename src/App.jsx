@@ -7,6 +7,7 @@ import Benefits from './pages/BenefitsSection'
 import BusinessSolutionPage from './pages/BusinessSolutionPage'
 import BlogPage from './pages/BlogPage'
 import BlogReadingPage from './pages/BlogReadingPage'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -20,8 +21,9 @@ const App = () => {
 
     {/* <BusinessSolutionPage /> */}
 
-    <BlogPage />
-    <BlogReadingPage />
+    {/* <BlogPage />
+    <BlogReadingPage /> */}
+    <Contact />
     </div>
   )
 }

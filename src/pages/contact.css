@@ -1,0 +1,7 @@
+/* styles.css */
+select .option {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px !important; /* Padding for the option elements */
+  }
+  
